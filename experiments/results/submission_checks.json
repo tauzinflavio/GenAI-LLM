@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "test": "TP01 toutes cellules réellement exécutées",
+      "passed": true
+    },
+    {
+      "test": "TP01 figures et sorties conservées",
+      "passed": true
+    },
+    {
+      "test": "TP01 aucune erreur",
+      "passed": true
+    },
+    {
+      "test": "TP01 empreinte preuve exacte",
+      "passed": true
+    },
+    {
+      "test": "TP02 toutes cellules réellement exécutées",
+      "passed": true
+    },
+    {
+      "test": "TP02 figures et sorties conservées",
+      "passed": true
+    },
+    {
+      "test": "TP02 aucune erreur",
+      "passed": true
+    },
+    {
+      "test": "TP02 empreinte preuve exacte",
+      "passed": true
+    },
+    {
+      "test": "ventilation et ROI cohérents",
+      "passed": true
+    },
+    {
+      "test": "158 sorties, aucune annotation inventée",
+      "passed": true
+    },
+    {
+      "test": "grille humaine préservée experiments/llm_v1/human_review.csv",
+      "passed": true
+    },
+    {
+      "test": "grille humaine préservée experiments/llm_v2/human_review.csv",
+      "passed": true
+    },
+    {
+      "test": "grille humaine préservée experiments/results/tp04/human_review.csv",
+      "passed": true
+    },
+    {
+      "test": "grille humaine préservée experiments/m01/human_review.csv",
+      "passed": true
+    },
+    {
+      "test": "import refuse référence inventée / origine automatique",
+      "passed": true
+    },
+    {
+      "test": "index de remise huit blocs",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible tp01",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible tp02",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible tp_synthesis",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible c2",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible c3",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible architecture",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible report",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible model_card",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible matrix",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible review",
+      "passed": true
+    },
+    {
+      "test": "ressource disponible m01",
+      "passed": true
+    },
+    {
+      "test": "ressource inconnue refusée",
+      "passed": true
+    },
+    {
+      "test": "quotas réels et budget prospectif séparés",
+      "passed": true
+    },
+    {
+      "test": "FinOps allocation fictive explicite",
+      "passed": true
+    },
+    {
+      "test": "relecture accessible sans annotation préremplie",
+      "passed": true
+    }
+  ],
+  "total": 31,
+  "all_passed": true,
+  "new_inference": false,
+  "human_annotations_created": 0
+}

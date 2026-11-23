@@ -1,0 +1,15 @@
+{
+  "scenario": "hypothétique autorisé",
+  "operating_cost_totals": [
+    10000,
+    8000,
+    7000
+  ],
+  "initial_total": 15000,
+  "gross_minutes_saved_central": 2.0,
+  "review_minutes_added_central": 0.5,
+  "roi_central": 13.043478260869565,
+  "checks_passed": true,
+  "real_full_cost": "ND",
+  "warning": "Réserve incidents techniques distincte de revue métier ; ne pas sommer deux fois les enveloppes et leurs postes."
+}

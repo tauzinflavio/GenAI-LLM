@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-23",
+  "responsive": [
+    {
+      "page": "Vue d’ensemble",
+      "document": 320,
+      "viewport": 320
+    },
+    {
+      "page": "Analyse d’alertes",
+      "document": 320,
+      "viewport": 320
+    },
+    {
+      "page": "Diffusion",
+      "document": 320,
+      "viewport": 320
+    },
+    {
+      "page": "Évaluation",
+      "document": 320,
+      "viewport": 320
+    },
+    {
+      "page": "Impact & ROI",
+      "document": 320,
+      "viewport": 320
+    },
+    {
+      "page": "Journal",
+      "document": 320,
+      "viewport": 320
+    },
+    {
+      "page": "TP & livrables",
+      "document": 320,
+      "viewport": 320
+    }
+  ],
+  "review_guard": "save refused without identity, scores, justification and personal reading declaration",
+  "human_annotations_created": 0,
+  "console_errors": []
+}

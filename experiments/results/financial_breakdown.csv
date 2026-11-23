@@ -1,0 +1,4 @@
+scenario,volume_annuel,reprises_metier_fraction_supposee,reprises_incluses_dans_minutes_revue,exploitation_annuelle,exploitation_mensuelle,exploitation_par_alerte,investissement_initial,cout_total_annee1,gain_brut_annuel,revue_metier_annuelle,autres_couts_metier,gain_net_operationnel,roi_pct,statut
+pessimiste,24000,0.2,True,10000,833.3333333333334,0.4166666666666667,15000,25000,9000.0,13500.0,1000,-5500.0,-122.0,"calcul sur hypothèses, pas mesure de coût LLM"
+central,24000,0.1,True,8000,666.6666666666666,0.3333333333333333,15000,23000,36000.0,9000.0,1000,26000.0,13.043478260869565,"calcul sur hypothèses, pas mesure de coût LLM"
+optimiste,24000,0.05,True,7000,583.3333333333334,0.2916666666666667,15000,22000,45000.0,4500.0,1000,39500.0,79.54545454545455,"calcul sur hypothèses, pas mesure de coût LLM"

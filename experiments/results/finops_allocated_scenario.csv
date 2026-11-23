@@ -1,0 +1,5 @@
+strategy,tasks,contracts_success,allocated_technical_cost_eur,cost_per_contract_success_eur,api_cost_eur,annual_cost_assumed_eur,annual_volume_assumed,status
+cascade,10,9,3.333333333333333,0.37037037037037035,0,8000,24000,allocation hypothétique uniforme ; pas coût réel ni coût marginal ; gardes incluses
+mono_a,10,5,3.333333333333333,0.6666666666666666,0,8000,24000,allocation hypothétique uniforme ; pas coût réel ni coût marginal ; gardes incluses
+mono_b,10,9,3.333333333333333,0.37037037037037035,0,8000,24000,allocation hypothétique uniforme ; pas coût réel ni coût marginal ; gardes incluses
+routing,10,7,3.333333333333333,0.47619047619047616,0,8000,24000,allocation hypothétique uniforme ; pas coût réel ni coût marginal ; gardes incluses
