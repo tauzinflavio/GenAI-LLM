@@ -1,0 +1,72 @@
+[
+  {
+    "file": "03_TP_POC_GenAI_MultiLLM.pdf",
+    "role": "Sprint C3, première preuve et préparation V2",
+    "pages": 11,
+    "sha256": "d371c8c161e8388cd924722b51ddc05d51095ee2899faf34999cc01e6e773308",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "CM01_Cours_MultiLLM.pdf",
+    "role": "Introduction Multi-LLM et continuité du fil rouge",
+    "pages": 50,
+    "sha256": "8ce934e259bf91a0329695c81badef9c591266c43da5e9077c039e170119db69",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_CM01_MultiLLM_Fondations.pdf",
+    "role": "Fondations et mini-lab M01 distinct du projet final",
+    "pages": 101,
+    "sha256": "fcff12a2e80dfbd66d21f4f077d88e22fb41b982d08b73baad839aa2162e274f",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_CM03_FinOps_GreenAI_Ethique_ENRICHI_20nov2026.pdf",
+    "role": "FinOps, Green AI et audit éthique",
+    "pages": 73,
+    "sha256": "cfd459b3b83495efe6a45efe294df8edbd5d6ec16f2c86adb4af9977a992be1b",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_FICHE_03_DDPM_DDIM_CFG.pdf",
+    "role": "Méthodes DDPM/DDIM/CFG et mini-défi lecture-code",
+    "pages": 3,
+    "sha256": "3b3002c6bd87219b92007e22da5c32a5c37cfcd0de514dd6bbd94f91f4b5fccf",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_MultiLLM_ARCHITECTURES_COMPLETES_avec_analyses.pdf",
+    "role": "Patrons d’architecture, contrats et observabilité",
+    "pages": 75,
+    "sha256": "b357e39c0bb76dee47731a22133e6317236bfe446cecff92b46cc84bc3607994",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_TP04_Integration_MultiLLM_17nov2026.pdf",
+    "role": "Consignes opérationnelles et livrables TP04",
+    "pages": 11,
+    "sha256": "8aa5ffebd0f5ebf4e369e572f24ee1aa4a2c43ac88307a6d082e4268dcaa8b65",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_TP05_FinOps_GreenAI_Ethique_Projet_Final_20nov2026.pdf",
+    "role": "Consignes opérationnelles et livrables TP05",
+    "pages": 4,
+    "sha256": "182da5ae940a512298a57ebf678f00fa9ebf313da089a030a8adb227dbeed7fa",
+    "consulted": "2026-11-23"
+  },
+  {
+    "file": "ECE_M2_DEPLOIEMENT_ARCHITECTURES_ALIGNEMENT_FINAL.pdf",
+    "role": "cours de déploiement",
+    "sha256": "605e75b2fe745428eefee9029f064231a456b054141c31838c734aa609e930c4",
+    "consulted": "2026-11-23",
+    "pages": 47
+  },
+  {
+    "file": "TP08_ECE_DEPLOIEMENT_CHARGE_RESILIENCE_PROJET_FINAL.pdf",
+    "role": "TP08 du projet final",
+    "sha256": "6b65d52c65104149897da7f2b5429d3d1fd27e353ab1a3bc69331be7c68dfa6d",
+    "consulted": "2026-11-23",
+    "pages": 6
+  }
+]
