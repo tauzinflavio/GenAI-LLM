@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-11-23T10:25:19.225257+00:00",
+  "case_sha256": "e1529a5b3b4d24691977c2a51a0a1ebcd4725a07f76257c938d3203a0ef70132",
+  "temperature": "greedy",
+  "max_new_tokens": 100,
+  "selection_threshold": ">= 75% overall and >= 50% in each category, no unsupported bank action; otherwise neither",
+  "score": "exact JSON for extraction/reasoning; lexical coverage proxy for synthesis, not human semantic evaluation",
+  "limits": [
+    "12 constructed cases",
+    "lexical synthesis metric can miss paraphrases and hallucinations",
+    "no independent human grading"
+  ],
+  "questions": "Would a router by category reduce failures without adding a second call?"
+}

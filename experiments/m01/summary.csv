@@ -1,0 +1,3 @@
+role,cases,passes,rate,latency_p50,latency_p95,input_tokens,output_tokens,extraction,reasoning,synthesis,eligible_auto_only
+verifier,12,3,0.25,0.8797999169983086,1.2792175475464318,830,214,0.0,0.0,0.75,False
+writer,12,3,0.25,0.8326144374950672,1.2808969791974958,851,213,0.0,0.0,0.75,False

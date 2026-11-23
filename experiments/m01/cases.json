@@ -1,0 +1,115 @@
+[
+  {
+    "id": "E1",
+    "category": "extraction",
+    "task": "Extract the numeric amount from: transaction TX01, amount 125.5, score 0.8.",
+    "expected": {
+      "amount": 125.5
+    }
+  },
+  {
+    "id": "E2",
+    "category": "extraction",
+    "task": "Extract country from: country FR, amount 70, date 2026-01-02.",
+    "expected": {
+      "country": "FR"
+    }
+  },
+  {
+    "id": "E3",
+    "category": "extraction",
+    "task": "Extract transaction_id from: transaction_id TX03, amount 0.",
+    "expected": {
+      "transaction_id": "TX03"
+    }
+  },
+  {
+    "id": "E4",
+    "category": "extraction",
+    "task": "Extract score from: transaction TX04, score 0.91, amount 35.",
+    "expected": {
+      "score": 0.91
+    }
+  },
+  {
+    "id": "R1",
+    "category": "reasoning",
+    "task": "Four alerts require 3 minutes each. Compute total minutes.",
+    "expected": {
+      "minutes": 12
+    }
+  },
+  {
+    "id": "R2",
+    "category": "reasoning",
+    "task": "Annual benefit is 120 euros. Total first-year cost is 100 euros. ROI percent = (benefit-cost)/cost*100. Compute ROI.",
+    "expected": {
+      "roi_percent": 20
+    }
+  },
+  {
+    "id": "R3",
+    "category": "reasoning",
+    "task": "Rule: review iff score >= 0.8 and amount is known; otherwise abstain. Score=0.9, amount=null. What is the action?",
+    "expected": {
+      "action": "abstain"
+    }
+  },
+  {
+    "id": "R4",
+    "category": "reasoning",
+    "task": "A source says amount=100. Another equally authoritative source says amount=200. No tie-break is available. Choose abstain or review.",
+    "expected": {
+      "action": "abstain"
+    }
+  },
+  {
+    "id": "S1",
+    "category": "synthesis",
+    "task": "Summarize in one short English sentence: The score is high. The customer identity is unknown. A human must review before any decision. Do not conclude fraud.",
+    "required": [
+      "score",
+      "unknown",
+      "human"
+    ],
+    "forbidden": [
+      "confirmed fraud"
+    ]
+  },
+  {
+    "id": "S2",
+    "category": "synthesis",
+    "task": "Summarize in one short English sentence: A generates a report. B checks it. Two calls increase latency. A second model does not guarantee accuracy.",
+    "required": [
+      "latency",
+      "accuracy"
+    ],
+    "forbidden": [
+      "guarantees accuracy"
+    ]
+  },
+  {
+    "id": "S3",
+    "category": "synthesis",
+    "task": "Summarize in one short English sentence: Inference time was measured. Power was assumed. The energy figure is an estimate, not a direct measurement.",
+    "required": [
+      "power",
+      "estimate"
+    ],
+    "forbidden": [
+      "energy was measured"
+    ]
+  },
+  {
+    "id": "S4",
+    "category": "synthesis",
+    "task": "Summarize in one short English sentence: Diffusion AP is slightly higher. The uncertainty interval contains zero. Superiority has not been demonstrated.",
+    "required": [
+      "zero",
+      "superiority"
+    ],
+    "forbidden": [
+      "superiority is demonstrated"
+    ]
+  }
+]
