@@ -1,0 +1,27 @@
+{
+  "frozen_at_utc": "2026-11-23T10:43:13.022291+00:00",
+  "workload_sha256": "9a94400057083193db9ba47480685a323d0fe87a7a14f0d43cdf5246adb69025",
+  "cases": 10,
+  "policy": {
+    "max_calls": 2,
+    "max_tokens_total": 4600,
+    "call_timeout_s": 20,
+    "request_timeout_s": 45,
+    "max_input_tokens": 2048,
+    "retries": 0
+  },
+  "hypothesis": "La cascade augmente la conformité par rapport à A seul sans dépasser deux appels ; le routing utilise moins d’appels que la cascade.",
+  "selection": "max conformité ; puis moins d’appels ; puis p95 ; aucun déploiement bancaire autonome",
+  "workload_design": "construit après les expériences V1/V2 ; exploratoire ; aucune généralisation statistique",
+  "orchestrator_sha256": "58f5bd0ca2a9ff9318881af123a6798eaad7b3020afbfaba52b1d264115e7338",
+  "benchmark_sha256": "2e3717f2d5e6d550e68a862320e76635a6eaa4b6eb87308890807f108e27600a",
+  "model_config_sha256": "584a1aa24b1e9e3627ce5e28cb6430858bf9bfea5d8d8205886fa1fccc027294",
+  "independent_strategy_backend_reset": true,
+  "hardware": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "seed": 42,
+  "load_and_warmup_excluded": true,
+  "quality": "contrat factuel automatique ; qualité métier et jugement humain non mesurés",
+  "energy": "ND",
+  "ttft": "ND, sortie non streamée"
+}
