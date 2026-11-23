@@ -22,7 +22,8 @@ from scipy.io import arff
 
 from benchmark_llm import assess
 from run_experiment import NoisePredictor, sample_diffusion
-from orchestrator import ModelWorker, Orchestrator, expected_report
+from orchestrator import ModelWorker, Orchestrator, expected_report, Policy
+from dataclasses import asdict
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / 'data/local_app.sqlite'
@@ -160,7 +161,7 @@ def metrics():
         return json.loads(pd.read_csv(path).to_json(orient='records')) if path.exists() else []
     load_files=sorted((ROOT/'outputs').glob('load_*.json'))
     loads=[json.loads(path.read_text()) for path in load_files]
-    return dict(tp04=rows(tp04),tp05=rows(tp05),deployment=loads,llm_v2=pd.read_csv(llm_v2).to_dict(orient='records') if llm_v2.exists() else [],
+    return dict(financial_scenarios=rows(ROOT/'experiments/results/financial_breakdown.csv'),allocated_scenario=rows(ROOT/'experiments/results/finops_allocated_scenario.csv'),tp04=rows(tp04),tp05=rows(tp05),deployment=loads,llm_v2=pd.read_csv(llm_v2).to_dict(orient='records') if llm_v2.exists() else [],
                 genai=summary.to_dict(orient='records'),
                 final=pd.read_csv(ROOT/'experiments/final_test/metrics.csv').to_dict(orient='records') if (ROOT/'experiments/final_test/metrics.csv').exists() else [],
                 generation=pd.read_csv(ROOT/'experiments/v1/generation_metrics.csv').to_dict(orient='records'),
@@ -327,3 +328,47 @@ def recover(background_tasks: BackgroundTasks):
     RECOVERING=True
     background_tasks.add_task(restart_failed_workers)
     return JSONResponse({'status':'restarting','note':'Chargement local ; aucune requête précédente rejouée.'},status_code=202)
+
+
+# Ressources de remise : liste fermée, aucun accès à un chemin fourni par l'utilisateur.
+RESOURCES = {
+    'tp01': ('notebooks/TP01_FraudLab.ipynb', 'Notebook TP01 exécuté'),
+    'tp02': ('notebooks/TP02_FraudLab.ipynb', 'Notebook TP02 exécuté'),
+    'tp_synthesis': ('deliverables/TP01_TP02_Synthese_FraudLab.pdf', 'Synthèse TP01 et TP02'),
+    'c2': ('deliverables/C2_Cadrage_FraudLab.pdf', 'Cadrage C2'),
+    'c3': ('deliverables/C3_Preuve_technique_FraudLab.pdf', 'Preuve C3'),
+    'architecture': ('deliverables/Architecture_ADR_FraudLab.pdf', 'Architecture et décision une page'),
+    'report': ('deliverables/Rapport_consolide_FraudLab.pdf', 'Rapport consolidé'),
+    'model_card': ('docs/MODEL_CARD.md', 'Fiche modèle / système'),
+    'matrix': ('docs/30_matrice_TP_projet_final.md', 'Tableau de suivi TP et projet'),
+    'review': ('deliverables/Relecture_LLM.html', 'Atelier de relecture humaine'),
+    'm01': ('deliverables/TPM01_Comparaison_FraudLab.pdf', 'Comparaison M01'),
+}
+
+@app.get('/api/resources/{resource_id}')
+def resource(resource_id: str):
+    entry = RESOURCES.get(resource_id)
+    if not entry or not (ROOT / entry[0]).is_file():
+        raise HTTPException(404, 'Ressource introuvable')
+    path = ROOT / entry[0]
+    return FileResponse(path, filename=path.name, content_disposition_type='inline' if path.suffix in {'.pdf','.html'} else 'attachment')
+
+@app.get('/review')
+def review_workbench():
+    return FileResponse(ROOT / 'deliverables/Relecture_LLM.html')
+
+@app.get('/api/coursework')
+def coursework():
+    return dict(project='FraudLab', team=json.loads((ROOT/'configs/team.json').read_text()),
+        resources=[dict(id=k,title=v[1],href='/api/resources/'+k,available=(ROOT/v[0]).is_file()) for k,v in RESOURCES.items()],
+        work=json.loads((ROOT/'configs/submission_status.json').read_text()),
+        human_review='À réaliser par le groupe ; aucune annotation humaine créée automatiquement.',
+        excluded=['Soutenance','PowerPoint'])
+
+@app.get('/api/policy')
+def policy_status():
+    live=status()
+    return dict(**asdict(Policy()), admission_concurrency=1, max_output_tokens=100, external_fallback=False,
+        serving_ready=live['serving_ready'],cost_budget_eur_prospective=.35,cost_budget_status='objectif prospectif, coût complet réel ND, pas quota monétaire mesuré',
+        operator='personne lançant la démonstration ; désignation nominative à décider',alert_channel='écran local et runbook ; aucun envoi externe',
+        stops='429 si capacité occupée ; refus avant dépassement du budget tokens/appels ; worker interrompu à timeout')
