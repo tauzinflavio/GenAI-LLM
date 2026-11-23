@@ -1,0 +1,102 @@
+[
+  {
+    "case_id":"D42-01",
+    "seed":42,
+    "t":0,
+    "baseline_zero_noise_mse":1.10429883,
+    "ddpm_noise_mse":1.416253686,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-02",
+    "seed":42,
+    "t":11,
+    "baseline_zero_noise_mse":1.0847015381,
+    "ddpm_noise_mse":0.8419268131,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-03",
+    "seed":42,
+    "t":22,
+    "baseline_zero_noise_mse":1.335745573,
+    "ddpm_noise_mse":0.3707199097,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-04",
+    "seed":42,
+    "t":33,
+    "baseline_zero_noise_mse":1.0597194433,
+    "ddpm_noise_mse":0.294592768,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-05",
+    "seed":42,
+    "t":44,
+    "baseline_zero_noise_mse":0.7468543649,
+    "ddpm_noise_mse":0.068386972,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-06",
+    "seed":42,
+    "t":55,
+    "baseline_zero_noise_mse":0.7708066702,
+    "ddpm_noise_mse":0.0311625581,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-07",
+    "seed":42,
+    "t":66,
+    "baseline_zero_noise_mse":0.7352540493,
+    "ddpm_noise_mse":0.0451606736,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-08",
+    "seed":42,
+    "t":77,
+    "baseline_zero_noise_mse":1.0107504129,
+    "ddpm_noise_mse":0.0107065644,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-09",
+    "seed":42,
+    "t":88,
+    "baseline_zero_noise_mse":1.1030055285,
+    "ddpm_noise_mse":0.0202497412,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  },
+  {
+    "case_id":"D42-10",
+    "seed":42,
+    "t":99,
+    "baseline_zero_noise_mse":0.967569232,
+    "ddpm_noise_mse":0.0208623856,
+    "status":"mesure",
+    "verification":"MSE bruit connu",
+    "generator_training_excluded":true
+  }
+]
