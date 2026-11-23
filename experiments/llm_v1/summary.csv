@@ -1,0 +1,4 @@
+configuration,cases,contract_passes,contract_pass_rate,latency_p50,latency_p95,total_seconds,input_tokens,output_tokens,api_cost_eur,cost_scope
+A_mono,10,0,0.0,1.41065733349933,1.9951743523010008,15.261874916999659,1496,338,0.0,aucun appel API ; coût matériel et électricité non chiffrés
+A_plus_B,10,4,0.4,3.1337078959968494,4.5423725569515225,35.008033584996156,3433,698,0.0,aucun appel API ; coût matériel et électricité non chiffrés
+B_mono,10,1,0.1,2.0135993539988704,2.188257168901873,17.486510708000424,1442,326,0.0,aucun appel API ; coût matériel et électricité non chiffrés

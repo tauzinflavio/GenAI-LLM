@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "cases": 10,
+  "fixtures_only": true,
+  "real_banking_cases": false,
+  "human_review_completed": false,
+  "torch": "2.15.0",
+  "prompt_sha256": "68a0ac318d75bf69375a18804b1346ad1582c7ebba553d4c50a9d99ab5ee17a9",
+  "repaired_contracts": 4,
+  "introduced_contract_errors": 0,
+  "latency_scope": "inf\u00e9rence CPU apr\u00e8s warm-up ; chargement exclu ; A+B inclut les deux appels",
+  "limitations": [
+    "petit jeu construit",
+    "contrats de copie de faits, pas expertise bancaire",
+    "p95 descriptif sur dix cas",
+    "annotation humaine requise"
+  ]
+}
