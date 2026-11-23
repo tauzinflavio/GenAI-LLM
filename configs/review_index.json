@@ -1,0 +1,950 @@
+[
+  {
+    "key": "ca45e0fa4d66bb95",
+    "dataset": "tp04",
+    "case_id": "T08",
+    "configuration": "routing"
+  },
+  {
+    "key": "16302fdcaa0b945c",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H08",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "6d0b65c44b78aea3",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H12",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "3150e11556d9d482",
+    "dataset": "llm_v1",
+    "case_id": "L06",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "19650328ca784e35",
+    "dataset": "tp04",
+    "case_id": "T04",
+    "configuration": "cascade"
+  },
+  {
+    "key": "dadaaa75fb909ae7",
+    "dataset": "tp04",
+    "case_id": "T07",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "2b4ffe0d3d6815e9",
+    "dataset": "llm_v1",
+    "case_id": "L02",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "b56ca2ce4eaaadce",
+    "dataset": "tp04",
+    "case_id": "T06",
+    "configuration": "routing"
+  },
+  {
+    "key": "d09d206f2f84987f",
+    "dataset": "tp04",
+    "case_id": "T04",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "b9d20e97e900f62f",
+    "dataset": "tp04",
+    "case_id": "T08",
+    "configuration": "cascade"
+  },
+  {
+    "key": "a9394f3af047f789",
+    "dataset": "tp04",
+    "case_id": "T04",
+    "configuration": "routing"
+  },
+  {
+    "key": "ca8ea4188bd12e91",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H11",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "a5817f723b8583aa",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H12",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "015f3684d21e346e",
+    "dataset": "llm_v1",
+    "case_id": "L09",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "fd9a6e281e8941b1",
+    "dataset": "tp04",
+    "case_id": "T03",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "57d0579977df88e7",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H11",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "7103f07193b5ac44",
+    "dataset": "m01",
+    "case_id": "R4",
+    "configuration": "verifier"
+  },
+  {
+    "key": "924e0da479984375",
+    "dataset": "llm_v1",
+    "case_id": "L04",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "8156161581ca900f",
+    "dataset": "m01",
+    "case_id": "S2",
+    "configuration": "writer"
+  },
+  {
+    "key": "e33edd0a98fc0cc0",
+    "dataset": "llm_v2_development",
+    "case_id": "L04",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "ab9e597f37f5669c",
+    "dataset": "llm_v1",
+    "case_id": "L08",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "d752a68cee66b96b",
+    "dataset": "llm_v1",
+    "case_id": "L03",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "625c475c667e01c7",
+    "dataset": "tp04",
+    "case_id": "T02",
+    "configuration": "routing"
+  },
+  {
+    "key": "3fb9d7cecebd1e72",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H08",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "82e4ce2f3739c3d7",
+    "dataset": "llm_v1",
+    "case_id": "L04",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "e1e60bc16ff4eda4",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H12",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "b7fe9cbdedd22791",
+    "dataset": "m01",
+    "case_id": "E3",
+    "configuration": "verifier"
+  },
+  {
+    "key": "a6fca17160f7ee3e",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H10",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "432e14a21780f84c",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H03",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "20e93f2d16ff0477",
+    "dataset": "tp04",
+    "case_id": "T10",
+    "configuration": "cascade"
+  },
+  {
+    "key": "2c47febc3ece52f0",
+    "dataset": "tp04",
+    "case_id": "T01",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "7aa54b83d27d2023",
+    "dataset": "m01",
+    "case_id": "S3",
+    "configuration": "writer"
+  },
+  {
+    "key": "e1323a3c1b31345c",
+    "dataset": "m01",
+    "case_id": "R3",
+    "configuration": "verifier"
+  },
+  {
+    "key": "31380afd65391c00",
+    "dataset": "m01",
+    "case_id": "R2",
+    "configuration": "writer"
+  },
+  {
+    "key": "536aab03d2918d59",
+    "dataset": "llm_v1",
+    "case_id": "L01",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "7d8917090396eb8b",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H01",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "19d957bca7374435",
+    "dataset": "llm_v2_development",
+    "case_id": "L01",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "e28f442442a845b8",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H12",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "9a09d88695d2f24a",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H09",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "79bfb4ee8c9fb250",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H10",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "55c51bf2eec6b097",
+    "dataset": "llm_v2_development",
+    "case_id": "L03",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "41f717bd20327ae0",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H09",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "9a45f8ff0c76d6ed",
+    "dataset": "tp04",
+    "case_id": "T01",
+    "configuration": "routing"
+  },
+  {
+    "key": "9d0ba1c57207064a",
+    "dataset": "tp04",
+    "case_id": "T09",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "d153636ac4ae2247",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H06",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "d235322c018aa821",
+    "dataset": "m01",
+    "case_id": "S4",
+    "configuration": "verifier"
+  },
+  {
+    "key": "477c1fc88d534a2d",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H02",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "c19bff9861e312f5",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H01",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "49cff07a7a8e6813",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H11",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "3a7b08f8fa725b2f",
+    "dataset": "llm_v1",
+    "case_id": "L05",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "3018970eec0d7a25",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H06",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "63940b4ca199be2a",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H07",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "5feb3a26c0e35deb",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H03",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "50b5e6e8587f75e2",
+    "dataset": "tp04",
+    "case_id": "T06",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "e4d6771bbb22003a",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H06",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "197427999cddcd0f",
+    "dataset": "m01",
+    "case_id": "R3",
+    "configuration": "writer"
+  },
+  {
+    "key": "f649fa97ab502773",
+    "dataset": "m01",
+    "case_id": "E1",
+    "configuration": "verifier"
+  },
+  {
+    "key": "2f81c6fb16de22da",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H08",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "b1bc9a6a94ccdb0f",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H07",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "ad1856c736a9e05b",
+    "dataset": "tp04",
+    "case_id": "T09",
+    "configuration": "routing"
+  },
+  {
+    "key": "02bbe420b9292de6",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H05",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "7eaf719e23b95d37",
+    "dataset": "tp04",
+    "case_id": "T03",
+    "configuration": "routing"
+  },
+  {
+    "key": "267ab788306e6753",
+    "dataset": "tp04",
+    "case_id": "T10",
+    "configuration": "routing"
+  },
+  {
+    "key": "1088f8ec88c4a594",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H07",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "87c96944815c6d39",
+    "dataset": "tp04",
+    "case_id": "T01",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "4130f59de368ef34",
+    "dataset": "m01",
+    "case_id": "E4",
+    "configuration": "writer"
+  },
+  {
+    "key": "20d5eec65dc882c9",
+    "dataset": "m01",
+    "case_id": "S1",
+    "configuration": "writer"
+  },
+  {
+    "key": "94723fcec9dc3b4b",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H03",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "a64d87d30bf24b0e",
+    "dataset": "m01",
+    "case_id": "E2",
+    "configuration": "writer"
+  },
+  {
+    "key": "bf429c1f752486ad",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H01",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "de458f571255c302",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H02",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "34e95d96006cc635",
+    "dataset": "tp04",
+    "case_id": "T06",
+    "configuration": "cascade"
+  },
+  {
+    "key": "f8e6e4cf3361b129",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H07",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "7c0753a30a939198",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H10",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "968f6491899937c4",
+    "dataset": "m01",
+    "case_id": "E3",
+    "configuration": "writer"
+  },
+  {
+    "key": "7786ca58f68d75e6",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H04",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "438d950a5619c82b",
+    "dataset": "tp04",
+    "case_id": "T05",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "71f4dbc0fad940d8",
+    "dataset": "tp04",
+    "case_id": "T03",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "f8e3abc4f9062276",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H04",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "dc30a77273527c75",
+    "dataset": "tp04",
+    "case_id": "T07",
+    "configuration": "routing"
+  },
+  {
+    "key": "728a27d8374dee48",
+    "dataset": "llm_v1",
+    "case_id": "L10",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "c2bb6fcf0005692b",
+    "dataset": "llm_v1",
+    "case_id": "L05",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "485e2c09ebb05af8",
+    "dataset": "tp04",
+    "case_id": "T05",
+    "configuration": "cascade"
+  },
+  {
+    "key": "7b736dea1b081f33",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H04",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "3190ea7ae003ff15",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H05",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "f900327464c26a6c",
+    "dataset": "tp04",
+    "case_id": "T04",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "69cad456929e6a76",
+    "dataset": "llm_v1",
+    "case_id": "L09",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "30270d19dd69b105",
+    "dataset": "llm_v1",
+    "case_id": "L06",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "f254471b23f00d91",
+    "dataset": "m01",
+    "case_id": "S3",
+    "configuration": "verifier"
+  },
+  {
+    "key": "302f1ca7ddc0b320",
+    "dataset": "tp04",
+    "case_id": "T02",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "be0f4883fbc07076",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H02",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "a47863c395464d54",
+    "dataset": "m01",
+    "case_id": "E4",
+    "configuration": "verifier"
+  },
+  {
+    "key": "96647015cba8abc9",
+    "dataset": "tp04",
+    "case_id": "T06",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "898c2a51d1c2557c",
+    "dataset": "tp04",
+    "case_id": "T08",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "a43b440cd0d8c239",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H06",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "a8d3f8bff6fd876d",
+    "dataset": "m01",
+    "case_id": "R1",
+    "configuration": "writer"
+  },
+  {
+    "key": "e8c15bf47677b495",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H01",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "21c8ea14a9f209a0",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H01",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "c32bc83c76c03926",
+    "dataset": "llm_v1",
+    "case_id": "L07",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "dc1a72b90ddea412",
+    "dataset": "llm_v1",
+    "case_id": "L10",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "58f59fe9c0634adf",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H10",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "d12a414d31946b92",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H02",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "b7454cc17d5cc151",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H11",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "e5572dc4f04a248b",
+    "dataset": "tp04",
+    "case_id": "T02",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "acf6f84bad503da0",
+    "dataset": "m01",
+    "case_id": "R4",
+    "configuration": "writer"
+  },
+  {
+    "key": "03d674bae1a58d01",
+    "dataset": "llm_v1",
+    "case_id": "L10",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "a9372850fccb4e42",
+    "dataset": "llm_v1",
+    "case_id": "L03",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "43b1433886a45d68",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H08",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "5c0b6a95c693aa6d",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H05",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "00ad23438919d911",
+    "dataset": "llm_v1",
+    "case_id": "L06",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "56ebc85765d94b84",
+    "dataset": "tp04",
+    "case_id": "T05",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "dab6b7b50123e79d",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H04",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "33fe5775f76b1e9a",
+    "dataset": "m01",
+    "case_id": "S4",
+    "configuration": "writer"
+  },
+  {
+    "key": "f60ad9c80d666ed4",
+    "dataset": "tp04",
+    "case_id": "T05",
+    "configuration": "routing"
+  },
+  {
+    "key": "83f2923a4d1417bf",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H09",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "f4dd40767f034842",
+    "dataset": "m01",
+    "case_id": "E2",
+    "configuration": "verifier"
+  },
+  {
+    "key": "d462ad203aa4a340",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H11",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "1e643639a66ff4d9",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H03",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "4b7cf5dac6fd3758",
+    "dataset": "m01",
+    "case_id": "R1",
+    "configuration": "verifier"
+  },
+  {
+    "key": "ab0578e1bacbeed1",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H07",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "7b72efdcf665f65f",
+    "dataset": "tp04",
+    "case_id": "T10",
+    "configuration": "mono_a"
+  },
+  {
+    "key": "abe0909a9fcb81fd",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H05",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "af6179b0b74fa101",
+    "dataset": "llm_v1",
+    "case_id": "L01",
+    "configuration": "B_mono"
+  },
+  {
+    "key": "4772f57af12cc0a6",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H02",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "7ccc738faad794ac",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H08",
+    "configuration": "v2_A_plus_B"
+  },
+  {
+    "key": "08d050c1cf089aaf",
+    "dataset": "tp04",
+    "case_id": "T01",
+    "configuration": "cascade"
+  },
+  {
+    "key": "c73632179b4efd90",
+    "dataset": "llm_v1",
+    "case_id": "L02",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "a53f8974309ec377",
+    "dataset": "llm_v1",
+    "case_id": "L04",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "791e51c303435ac5",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H04",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "1c7a216b564fc879",
+    "dataset": "llm_v1",
+    "case_id": "L01",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "d0201df2ba133077",
+    "dataset": "tp04",
+    "case_id": "T09",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "ae5e9a7fe08878d8",
+    "dataset": "tp04",
+    "case_id": "T10",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "acdb255962f50510",
+    "dataset": "m01",
+    "case_id": "E1",
+    "configuration": "writer"
+  },
+  {
+    "key": "6c32491a05395777",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H05",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "df01d4d03e2c6258",
+    "dataset": "tp04",
+    "case_id": "T03",
+    "configuration": "cascade"
+  },
+  {
+    "key": "83936c52c7c3c57c",
+    "dataset": "llm_v1",
+    "case_id": "L09",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "90a4184c68a0911b",
+    "dataset": "llm_v1",
+    "case_id": "L02",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "39e7383c664f1e8a",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H10",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "ec8f80e34ac9d3e7",
+    "dataset": "llm_v2_development",
+    "case_id": "L02",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "048fae9f830fde9d",
+    "dataset": "tp04",
+    "case_id": "T02",
+    "configuration": "cascade"
+  },
+  {
+    "key": "4f5bbbd9431df1c3",
+    "dataset": "tp04",
+    "case_id": "T08",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "20dbcc6ae10bbed7",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H09",
+    "configuration": "v2_A_mono"
+  },
+  {
+    "key": "21c962f02559e19e",
+    "dataset": "llm_v1",
+    "case_id": "L03",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "e4f895d4067ced4a",
+    "dataset": "llm_v1",
+    "case_id": "L05",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "9db7eb8a0f9491d0",
+    "dataset": "llm_v1",
+    "case_id": "L08",
+    "configuration": "A_mono"
+  },
+  {
+    "key": "71d92b7a4794d8fd",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H12",
+    "configuration": "v1_A_mono"
+  },
+  {
+    "key": "d74637c23bcf1936",
+    "dataset": "m01",
+    "case_id": "R2",
+    "configuration": "verifier"
+  },
+  {
+    "key": "ad9f04c8663154b4",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H03",
+    "configuration": "v1_A_plus_B"
+  },
+  {
+    "key": "19710147d4e1b1a5",
+    "dataset": "llm_v1",
+    "case_id": "L07",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "cfe5b1dffe75477d",
+    "dataset": "tp04",
+    "case_id": "T07",
+    "configuration": "mono_b"
+  },
+  {
+    "key": "e00c0ec60f47a74f",
+    "dataset": "m01",
+    "case_id": "S2",
+    "configuration": "verifier"
+  },
+  {
+    "key": "a304eec56f3edfcd",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H06",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "b7ce49c15b06384e",
+    "dataset": "llm_v2_holdout",
+    "case_id": "H09",
+    "configuration": "v2_B_mono"
+  },
+  {
+    "key": "1b62df7e26bdbf4f",
+    "dataset": "llm_v1",
+    "case_id": "L08",
+    "configuration": "A_plus_B"
+  },
+  {
+    "key": "8afc0aeb67a3f6bf",
+    "dataset": "tp04",
+    "case_id": "T09",
+    "configuration": "cascade"
+  },
+  {
+    "key": "b11ab4ef647ed5ae",
+    "dataset": "tp04",
+    "case_id": "T07",
+    "configuration": "cascade"
+  },
+  {
+    "key": "153a7939d657772b",
+    "dataset": "m01",
+    "case_id": "S1",
+    "configuration": "verifier"
+  },
+  {
+    "key": "fab2d2e146bf4430",
+    "dataset": "llm_v1",
+    "case_id": "L07",
+    "configuration": "B_mono"
+  }
+]

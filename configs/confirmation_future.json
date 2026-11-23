@@ -1,0 +1,26 @@
+{
+  "status": "protocole prospectif préparé ; non exécuté",
+  "existing_results": "exploratoires ; aucun préenregistrement rétroactif",
+  "H1": {
+    "question": "DDPM x4 vs pondération sur nouveau test autorisé indépendant",
+    "minimum_delta_average_precision": 0.01,
+    "uncertainty": "IC bootstrap apparié 95 % avec dépendances groupées si identifiants disponibles ; sinon limite explicite",
+    "success": "delta >= .01 et borne inférieure IC > 0"
+  },
+  "H2": {
+    "question": "cascade vs mono-B sur nouvelles fixtures gelées avant appel",
+    "minimum_absolute_quality_gain": 0.1,
+    "quality": "contrat exact ; jugement humain séparé en aveugle",
+    "max_p95_seconds": 5,
+    "max_technical_cost_per_task_eur": 0.35,
+    "cost_status": "exige mesure/allocation justifiée ; ND rend ce critère non concluable",
+    "critical_cases": "aucune dégradation des refus critiques"
+  },
+  "workload_future": {
+    "llm_tasks": 100,
+    "distribution": "40 usuels, 20 complexes, 10 source absente, 10 conflit explicite, 10 injection, 10 sensible",
+    "freeze": "attendus et hash avant toute génération",
+    "limitations": "p95 exploratoire ; cette proposition n’est pas un SLO validé"
+  },
+  "decision": "si conditions non réunies, conserver baseline ; ne jamais réoptimiser sur le test final déjà consulté"
+}

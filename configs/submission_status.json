@@ -1,0 +1,42 @@
+[
+  {
+    "block": "TP01",
+    "evidence": "Gaussienne, mélange, couverture, forward et conclusion ; 4 figures",
+    "status": "Exécuté et vérifié"
+  },
+  {
+    "block": "TP02",
+    "evidence": "Reparamétrisation, KL, pertes D/G et mode collapse ; 1 figure",
+    "status": "Exécuté et vérifié"
+  },
+  {
+    "block": "C2 / C3",
+    "evidence": "Cadrage5pages, preuve2pages, coûts détaillés et expériences DDPM",
+    "status": "Livrables présents ; responsabilités à décider"
+  },
+  {
+    "block": "TP03 / TP04",
+    "evidence": "V1/V2, deux LLM, route/cascade, 40 essais et contrôles de robustesse",
+    "status": "Exécuté ; annotation humaine à faire"
+  },
+  {
+    "block": "TP05",
+    "evidence": "Appels/tokens, FinOps, estimations Green et risques testés",
+    "status": "Réalisé ; coût complet/énergie réels ND explicites"
+  },
+  {
+    "block": "TP08",
+    "evidence": "Service réel, 2charges, panne/reprise, backup, ADR1page",
+    "status": "Réalisé pour POC local ; NO-GO production"
+  },
+  {
+    "block": "TP M01",
+    "evidence": "12tâches 4/4/4, comparaison et compte rendu1page",
+    "status": "Exécuté ; relecture sémantique humaine à faire"
+  },
+  {
+    "block": "Projet commun",
+    "evidence": "UI/API/SQLite, rapports et preuves réunis dans FraudLab",
+    "status": "Prêt pour relecture du groupe ; PPT/soutenance exclus"
+  }
+]
