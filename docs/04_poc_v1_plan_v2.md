@@ -5,4 +5,30 @@ La V1 LLM compare A, B et A rédacteur/B vérificateur sur dix cas fictifs. Le c
 
 L’amélioration de prompt a été figée et testée sur douze cas séparés : B seul atteint 8/12, mais la chaîne 1/12. Voir docs/12_amelioration_llm.md. Cette ablation garde les mêmes cas à l’intérieur de chaque expérience, sans mélanger les dénominateurs 10 et 12.
 
-Le TP04 ajoute ensuite une cascade conditionnelle, un routing explicite et des gardes identiques. Les hypothèses et contrôles sont dans docs/05_tp04_architecture_v2.md et le benchmark dans docs/05_tp04_benchmark.md. Ces expériences restent exploratoires. Les contributions individuelles et le commit Git sont à compléter lors de la préparation du dépôt commun.
+Le TP04 ajoute ensuite une cascade conditionnelle, un routing explicite et des gardes identiques. Les hypothèses et contrôles sont dans docs/05_tp04_architecture_v2.md et le benchmark dans docs/05_tp04_benchmark.md. Ces expériences restent exploratoires. Le dépôt commun est publié ; interlocuteur et contributions réelles restent à décider par le groupe.
+
+
+## Schémas V1 puis V2 (frontières identiques)
+```mermaid
+flowchart LR
+  U[Utilisateur local] --> I[Validation des faits autorisés]
+  I --> A[LLM A unique / V1]
+  A --> C[Contrat factuel]
+  C --> H[Revue humaine]
+  H --> S[Journal SQLite]
+```
+```mermaid
+flowchart LR
+  U[Utilisateur local] --> G[Gardes communes et droits]
+  G --> R[Politique figée / V2]
+  R --> A[LLM A]
+  R --> B[LLM B]
+  A --> C[Contrat exact]
+  C -->|cascade : échec, budget disponible| B
+  B --> V[Contrat exact final]
+  C -->|valide| H[Revue humaine]
+  V --> H
+  G -->|source absente / conflit déclaré / sensible| H
+  H --> S[Journal minimisé]
+```
+La baseline mono-B reste évaluée séparément. Le schéma ne transforme pas un refus de garde en succès du LLM, et le second modèle n’est pas promu sans bénéfice démontré.

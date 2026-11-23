@@ -1,0 +1,8 @@
+etape,action,acteur_outil,donnees,minutes_as_is,minutes_to_be_avant_revue,cost_human_as_is_eur,cost_human_to_be_eur,frequence,risque,statut
+1,Réception de la transaction associée à une alerte,Système transactionnel,Champs autorisés,0.01,0.01,0,0,"par alerte du scénario, 24000/an",schéma invalide,"hypothèse pédagogique, aucune observation bancaire"
+2,Score et règles,Détecteur,Variables anonymisées,0.02,0.02,0,0,"par alerte du scénario, 24000/an",faux négatif,"hypothèse pédagogique, aucune observation bancaire"
+3,Création / attribution de l’alerte,Supervision,Score et seuil,0.02,0.02,0,0,"par alerte du scénario, 24000/an",surcharge,"hypothèse pédagogique, aucune observation bancaire"
+4,Examen des faits,Analyste,Dossier autorisé,3.0,2.25,2.25,1.6875,"par alerte du scénario, 24000/an",interprétation excessive,"hypothèse pédagogique, aucune observation bancaire"
+5,Recherche des éléments manquants,Analyste,Sources disponibles,1.5,0.75,1.125,0.5625,"par alerte du scénario, 24000/an",source absente,"hypothèse pédagogique, aucune observation bancaire"
+6,Rédaction / synthèse,Analyste,Faits vérifiés,1.25,0.75,0.9375,0.5625,"par alerte du scénario, 24000/an",hallucination,"hypothèse pédagogique, aucune observation bancaire"
+7,Validation et journal,Responsable habilité,Avis et justification,0.5,0.5,0.375,0.375,"par alerte du scénario, 24000/an",absence de traçabilité,"hypothèse pédagogique, aucune observation bancaire"

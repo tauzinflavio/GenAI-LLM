@@ -1,0 +1,7 @@
+poste,unite,pessimiste,central,optimiste,methode,statut
+calcul_materiel_electricite,EUR/an,1200,800,600,Allocation hypothétique ordinateur/électricité ; aucune API payante,"hypothèse pédagogique, aucune facture"
+maintenance_correctifs,EUR/an,4000,3200,2800,Forfait hypothétique de maintenance logicielle,"hypothèse pédagogique, aucune facture"
+supervision_technique,EUR/an,2500,2000,1800,"Exploitation technique uniquement, hors relecture métier","hypothèse pédagogique, aucune facture"
+stockage_sauvegardes,EUR/an,800,600,400,Forfait hypothétique de stockage et sauvegardes,"hypothèse pédagogique, aucune facture"
+licences,EUR/an,0,0,0,Aucune licence payante retenue dans ce scénario,"hypothèse pédagogique, aucune facture"
+reserve_incidents_techniques,EUR/an,1500,1400,1400,"Réserve hypothétique pour incidents techniques, pas temps de revue des alertes","hypothèse pédagogique, aucune facture"

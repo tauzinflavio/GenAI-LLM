@@ -1,35 +1,19 @@
-# Checklist de remise — 23 novembre 2026
+# Checklist de remise — TP et projet commun
+- [x] TP01 exécuté : E1–E5, quatre contrôles, figures et conclusion.
+- [x] TP02 exécuté : E1–E3, diagnostic E4 et réflexion.
+- [x] C2 cinq pages : métier, alternatives, TO BE, schéma, données, risques, ROI et ventilation.
+- [x] C3 deux pages : tests, génération réelle, baseline, incident et décision.
+- [x] J1 diffusion : x1/x4, trois seeds, baselines, test figé, qualité et diversité.
+- [x] TP03/TP04 : schémas V1/V2, deux vrais LLM, stratégies et traces comparables.
+- [x] TP05 : coût disponible/ND, scénario alloué distinct, Green conditionnel, risques et fiche modèle.
+- [x] TP08 : architecture/ADR une page, smoke, charges, panne/reprise, runbook et restauration.
+- [x] M01 : douze tâches et compte rendu une page ; format binôme/trinôme à confirmer.
+- [x] POC : UI/API/SQLite, sept écrans, ressources et quotas/erreurs FinOps.
+- [x] Atelier de relecture en aveugle avec export et import validé, sans annotation préremplie.
+- [x] Documentation courante reliée aux preuves ; brouillons périmés signalés/archivés.
+- [ ] Relecture et notation humaine réellement effectuées par le groupe.
+- [ ] Interlocuteur, contributions et opérateur : restent à décider (réponse explicite du groupe).
+- [ ] Modalités et dates de remise confirmées par l’enseignant.
+- [ ] Soutenance et PowerPoint : exclus de la préparation actuelle à la demande du groupe.
 
-## Travail technique et documentaire réalisé
-- [x] Cadrage commun GenAI / Multi-LLM et comparaison d’alternatives.
-- [x] Audit de données, empreinte, dédoublonnage, partitions chronologiques.
-- [x] DDPM entraîné, deux ratios, trois seeds, baselines et test final figé.
-- [x] Fidélité/diversité descriptives et limites de confidentialité documentées.
-- [x] Deux vrais modèles locaux, prompts V1/V2, routing/cascade sur un workload gelé.
-- [x] Budgets, timeouts, tests de panne, statuts et traces par appel.
-- [x] FinOps par contrat réussi, coût complet réel ND explicite et levier évalué.
-- [x] Calculs Green conditionnels sourcés pour le facteur carbone ; puissance réelle ND.
-- [x] Éthique reliée à des tests, minimisation des traces et rétention locale.
-- [x] TP08 : architecture, inférence réelle, deux paliers, panne/reprise et sauvegarde/restauration.
-- [x] Mini-lab M01 distinct et mini-défi papier/code au commit étudié.
-- [x] Application front/API/SQLite et première vérification complète des six écrans.
-- [x] PDF C2 (5 pages), PDF C3 (2 pages), rapport consolidé et fiche M01 mis en page.
-- [x] Archive de partage préparée sans données, poids, base locale ni secrets.
-
-## Validation du groupe encore nécessaire
-- [x] Membres confirmés : Ahmed, Meriem, Flavio.
-- [ ] Désigner l’interlocuteur principal.
-- [ ] Renseigner les contributions réelles, sans répartition inventée.
-- [ ] Annoter humainement les sorties à partir des grilles disponibles.
-- [ ] Relire les hypothèses métier/financières et les articles, préparer leur explication.
-- [ ] Confirmer les dates, formats et modalités de remise auprès de l’enseignant.
-
-## Éléments reportés explicitement
-- [ ] PowerPoint et répétition de soutenance : reportés à la demande de l’utilisateur.
-- [x] Import GitHub réalisé : 181 fichiers publiés sur tauzinflavio/GenAI-LLM et vérifiés par empreintes ; voir docs/27_publication_github.md.
-
-## Portée des résultats
-Les contrats automatiques ne constituent pas une validation bancaire. Le coût complet et l’énergie réels sont ND ; les scénarios pédagogiques ne sont pas des mesures. Pas de supériorité démontrée de la diffusion ni d’autorisation de production. La disponibilité d’un fichier ne signifie pas qu’une validation humaine ou une certification a été effectuée.
-
-
-Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la publication est terminée et sa vérification consignée dans docs/27_publication_github.md.
+Aucune amélioration de détection, économie métier ou émission électrique réelle n’est inventée. Les estimations permises sont clairement identifiées ; les expériences négatives restent des travaux réalisés. Ne pas requalifier les exercices de révision ou options technologiques en obligations supplémentaires.

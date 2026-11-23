@@ -45,4 +45,8 @@ Coût API observé nul ; coût complet réel ND. Voir TP05 et les trois scénari
 ## GO / NO-GO et propriétaire
 GO sous conditions de supervision locale, données fictives/benchmark, pas d’action bancaire, contrôle des sorties. NO-GO pour production : réussite métier non évaluée humainement, jeux réduits, capacité faible, énergie et coûts complets non mesurés, absence de responsable d’exploitation nommé et absence d’authentification de production. Les membres confirmés sont Ahmed, Meriem et Flavio. L’interlocuteur et les contributions restent à attribuer par le groupe.
 
-Reproduction : README, scripts/service_checks.py et scripts/incident_test.py. Ce dernier crée son instance dédiée sur 8781, la détruit à la fin et ne touche pas aux autres services. Import GitHub reporté à la demande du groupe ; aucun hash Git fictif n’est indiqué.
+Reproduction : README, scripts/service_checks.py et scripts/incident_test.py. Ce dernier crée son instance dédiée sur 8781, la détruit à la fin et ne touche pas aux autres services. Dépôt partagé : https://github.com/tauzinflavio/GenAI-LLM. Les commits et le manifeste identifient les versions ; voir docs/27_publication_github.md.
+
+
+## Synthèse M2 autonome
+La page C4 simplifiée + décision ADR est dans deliverables/Architecture_ADR_FraudLab.pdf. Elle reprend frontières, modèles, limites, SLO prospectifs, coûts, exploitation et condition de non-production. Responsable humain nominatif à décider selon confirmation du groupe.

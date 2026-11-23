@@ -25,3 +25,8 @@ Pour fidelite_humaine, utiliser conforme, partiellement_conforme ou non_conforme
 
 ## Distinction des jeux
 La V1 et la V2 utilisent des jeux différents. Une comparaison de prompts doit s’appuyer sur les mêmes cas, comme dans la confirmation V2 qui réexécute les références V1 sur son jeu séparé. Un résultat sur douze cas construits reste une preuve limitée.
+
+
+## Atelier fourni pour terminer la relecture
+Ouvrir /review dans l’application ou deliverables/Relecture_LLM.html. 158sorties archivées sont réunies, modèles/performances masqués, avec critères distincts fidélité/sens, omissions, sécurité et format. L’annotateur entre son nom, justifie chaque note et atteste sa lecture. Exporter le CSV puis lancer scripts/import_human_reviews.py ; le script vérifie les références et conserve les scores automatiques sans les écraser. Rien n’est importé par défaut ; les CSV historiques restent vides jusqu’à vraie lecture humaine.
+Le stockage du navigateur n’est pas une sauvegarde partagée. Exporter régulièrement ; l’import produit une campagne séparée sous experiments/human_review/. Le champ human_declared est une déclaration de l’auteur, pas une preuve d’identité.

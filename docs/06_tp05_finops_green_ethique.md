@@ -42,3 +42,8 @@ GO pour démonstration locale surveillée, NO-GO pour usage bancaire autonome. L
 
 ## Reproduction
 python src/benchmark_tp04.py --output experiments/results/tp04_reproduction ; python tests/check_orchestrator.py ; python src/green_estimate.py. Les tableaux TP05 renvoient aux traces TP04 existantes. L’audit historique du jeu V2 reste dans tp05_mesures_v2_historique.csv. Les comparaisons n’agrègent pas les workloads 10/12.
+
+
+## Compléments de finalisation
+La ventilation du scénario autorisé, le taux de reprises hypothétique et la projection mensuelle sont dans docs/29_couts_et_processus_detail.md et experiments/results/financial_breakdown.csv. Une allocation hypothétique par contrat est fournie dans finops_allocated_scenario.csv, séparée du coût réel ND.
+Le dashboard affiche désormais les taux d’échec TP04, quotas tokens/appels/temps, disponibilité, responsable fonctionnel et canal local. Aucun canal externe n’est créé. La fiche modèle est docs/MODEL_CARD.md. Les grilles humaines restent à remplir par le groupe via /review ; la réalisation technique n’en tient pas lieu.

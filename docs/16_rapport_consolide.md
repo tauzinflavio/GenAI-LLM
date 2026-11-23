@@ -72,3 +72,10 @@ Les petits jeux de contrats ne mesurent pas une expertise bancaire ni l’équit
 
 ## Décision et dossier
 GO sous conditions pour démonstration locale supervisée. NO-GO pour production bancaire autonome et promotion automatique de la cascade. La diffusion est étudiée avec ses échecs, sans supériorité démontrée sur la référence pondérée. Le dossier fournit les PDF C2/C3, le rapport, les cas, sources, configurations, scripts, résultats et preuves. L’import GitHub intervient ensuite, sans publication ni historique de commits inventé.
+
+
+## Finalisation des TP et du dossier commun
+TP01/TP02 sont exécutés et vérifiés, figures et conclusions intégrées à notebooks/ et experiments/tp01,tp02. La synthèse PDF fait3pages. La version PDF courante du rapport fait7pages ; les copies précédentes restent historiques. Le cadrage conserve5pages et la preuveC3 2pages.
+Coûts du scénario ventilés, AS IS/TO BE chiffré, reprises et allocation par succès hypothétiques : docs/29_couts_et_processus_detail.md. Aucune modification des métriques du test final. Fiche système : MODEL_CARD.md ; architecture/ADR une page : deliverables/Architecture_ADR_FraudLab.pdf.
+Le POC comporte un écran TP & livrables et un atelier de relecture aveugle pour158sorties. Les modèles sont masqués pendant la notation ; aucune note humaine n’est remplie. Interlocuteur, répartition et opérateur restent à décider selon réponse explicite du groupe. Les 50% individuels ne sont pas certifiés par le dossier collectif. Soutenance/PPT exclus.
+Tableau de référence : docs/30_matrice_TP_projet_final.md.

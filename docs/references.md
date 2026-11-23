@@ -11,7 +11,7 @@ Kotelnikov, Baranchuk, Rubachev et Babenko, TabDDPM: Modelling Tabular Data with
 https://arxiv.org/abs/2209.15421v2
 Notice et résumé consultés. Apport : diffusion de variables tabulaires hétérogènes continues et discrètes. Les comparaisons annoncées avec GAN/VAE sur des benchmarks restent à examiner avant transfert à la fraude.
 
-Pour chaque article, lecture complète à réaliser avec objectif, variables et perte, données/baselines/métriques, résultat principal, limite et argument de transférabilité. Vérifier la licence du code avant réutilisation.
+Les analyses DDPM/TabDDPM sont dans docs/13_analyse_scientifique.md ; le code officiel est étudié au commit figé dans docs/22_mini_defi_diffusion.md. Les mentions « notice consultée » ci-dessus décrivent l’étape initiale, pas le statut actuel.
 
 ## Analyse réalisée
 Voir docs/13_analyse_scientifique.md pour les sections méthodologiques et expérimentales examinées, leurs limites et la correspondance avec notre code. Les notices ci-dessus conservent l’état de lecture initial.
