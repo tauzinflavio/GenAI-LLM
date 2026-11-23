@@ -1,0 +1,42 @@
+{
+  "url": "http://127.0.0.1:8784/",
+  "checks": [
+    {
+      "screen": "Vue d’ensemble",
+      "documentWidth": 320,
+      "heading": "Un projet, deux expériences",
+      "viewport": 320
+    },
+    {
+      "screen": "Analyse d’alertes",
+      "documentWidth": 320,
+      "heading": "Analyse d’une alerte",
+      "viewport": 320
+    },
+    {
+      "screen": "Diffusion",
+      "documentWidth": 320,
+      "heading": "Générations tabulaires réelles",
+      "viewport": 320
+    },
+    {
+      "screen": "Évaluation",
+      "documentWidth": 320,
+      "heading": "GenAI et Multi-LLM",
+      "viewport": 320
+    },
+    {
+      "screen": "Impact & ROI",
+      "documentWidth": 320,
+      "heading": "Impact et valeur métier",
+      "viewport": 320
+    },
+    {
+      "screen": "Journal",
+      "documentWidth": 320,
+      "heading": "Journal d’activité",
+      "viewport": 320
+    }
+  ],
+  "limitations": "contrôle de largeur et parcours ciblés ; pas un audit complet d’accessibilité"
+}

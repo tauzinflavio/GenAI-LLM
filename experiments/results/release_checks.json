@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-23",
+  "suites": [
+    {
+      "source": "experiments/application_checks_latest.json",
+      "checks": 16,
+      "all_passed": true
+    },
+    {
+      "source": "experiments/results/service_safety.json",
+      "checks": 11,
+      "all_passed": true
+    },
+    {
+      "source": "experiments/results/tp04_robustness.json",
+      "checks": 14,
+      "all_passed": true
+    }
+  ],
+  "total_automated_checks": 41,
+  "responsive": "six écrans, viewport 320, largeur document 320 ; preuve interface_release.json",
+  "browser_verified": [
+    "navigation",
+    "rapport déterministe",
+    "cascade réelle sur validation",
+    "DDPM 4 sorties",
+    "erreur count=0 en français",
+    "retour après correction",
+    "ROI central 13.0%",
+    "calcul énergie conditionnel",
+    "tableaux TP04/TP05/TP08",
+    "journal"
+  ],
+  "pdf_review": {
+    "C2": 5,
+    "C3": 2,
+    "rapport": 6,
+    "M01": 1,
+    "rendered_and_visually_reviewed": true
+  },
+  "real_incident_recovery": true,
+  "targeted_recovery_passed": true,
+  "backup_restore_passed": true,
+  "limitations": [
+    "tests fonctionnels, pas validation humaine de qualité métier",
+    "petits N, pas SLO",
+    "aucune certification de sécurité/accessibilité",
+    "énergie réelle et coût complet ND",
+    "pas de publication GitHub",
+    "PowerPoint reporté"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "archived_metrics_sha256_before": "a462a768a7d3be6b93b285bc15a01cb52dbff005cefc21c01d665728a26ed2d8",
+  "archived_metrics_sha256_after": "a462a768a7d3be6b93b285bc15a01cb52dbff005cefc21c01d665728a26ed2d8",
+  "archived_metrics_preserved": true,
+  "artifacts_rebuilt": true,
+  "network_redownload": false,
+  "new_environment_install": false,
+  "scope": "copie du paquet, environnement existant, entrées auditées et poids locaux réutilisés ; aucun nouvel accès au test final"
+}

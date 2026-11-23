@@ -1,0 +1,5 @@
+workload,workload_sha256,strategy,tasks_tested,contracts_passed,model_contracts_passed,guard_successes,total_calls,retries,input_tokens,output_tokens,usage_complete,latency_p95_s,api_cost_eur,total_cost_eur,cost_per_success_eur,energy_kwh,co2e_kg,proof
+TP04_10_fixtures_confirmation,9a94400057083193db9ba47480685a323d0fe87a7a14f0d43cdf5246adb69025,cascade,10,9,6,3,12,0,4480,416,True,4.120213339247857,0,ND,ND,ND,ND,measured confirmation traces; financial and environmental totals ND
+TP04_10_fixtures_confirmation,9a94400057083193db9ba47480685a323d0fe87a7a14f0d43cdf5246adb69025,mono_a,10,5,2,3,7,0,2694,298,True,3.5948172750038783,0,ND,ND,ND,ND,measured confirmation traces; financial and environmental totals ND
+TP04_10_fixtures_confirmation,9a94400057083193db9ba47480685a323d0fe87a7a14f0d43cdf5246adb69025,mono_b,10,9,6,3,7,0,2493,169,True,1.8658091435987443,0,ND,ND,ND,ND,measured confirmation traces; financial and environmental totals ND
+TP04_10_fixtures_confirmation,9a94400057083193db9ba47480685a323d0fe87a7a14f0d43cdf5246adb69025,routing,10,7,4,3,7,0,2605,221,True,1.9817770723981083,0,ND,ND,ND,ND,measured confirmation traces; financial and environmental totals ND

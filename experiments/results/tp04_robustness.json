@@ -1,0 +1,72 @@
+[
+  {
+    "test": "invalid A repaired by B",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "B unavailable yields abstention and failure",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "timeout A bounded then B",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "max calls enforced",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "token budget stops before model",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "deadline stops before model",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "cascade valid A skips B",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "guard T07",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "guard T08",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "guard T10",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "injection routed B and not instructions",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "reject boolean numeric",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "reject duplicate fields",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  },
+  {
+    "test": "reject markdown",
+    "passed": true,
+    "proof": "simulated_orchestration_not_llm_quality"
+  }
+]

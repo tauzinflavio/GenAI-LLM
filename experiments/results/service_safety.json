@@ -1,0 +1,46 @@
+[
+  {
+    "test": "API vivante",
+    "passed": true
+  },
+  {
+    "test": "deux workers prêts",
+    "passed": true
+  },
+  {
+    "test": "transaction autorisée",
+    "passed": true
+  },
+  {
+    "test": "référence libre absente du stockage",
+    "passed": true
+  },
+  {
+    "test": "vraie inférence conforme",
+    "passed": true
+  },
+  {
+    "test": "journal du service minimal",
+    "passed": true
+  },
+  {
+    "test": "refus montant négatif",
+    "passed": true
+  },
+  {
+    "test": "refus score hors bornes",
+    "passed": true
+  },
+  {
+    "test": "refus stratégie inconnue",
+    "passed": true
+  },
+  {
+    "test": "refus texte libre non autorisé",
+    "passed": true
+  },
+  {
+    "test": "réactivation explicite acceptée",
+    "passed": true
+  }
+]
