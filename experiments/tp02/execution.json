@@ -1,0 +1,15 @@
+{
+  "notebook": "notebooks/TP02_FraudLab.ipynb",
+  "sha256": "18d1060fd20a833461d6e08368b97a27f768f33a28e4235e1494ef56bf6c31a7",
+  "python": "3.14.1",
+  "numpy": "2.5.5",
+  "matplotlib": "3.11.2",
+  "code_cells_executed": 5,
+  "all_assertions_passed": true,
+  "figures": [
+    "experiments/tp02/figure_01.png"
+  ],
+  "seconds": 0.09630112499871757,
+  "scenario": "entièrement synthétique",
+  "authorship": "réalisation assistée par Codex ; contributions humaines non attribuées"
+}
