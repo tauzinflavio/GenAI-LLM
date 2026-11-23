@@ -15,3 +15,7 @@ Les routes API, identifiants des contrôles, traitements JavaScript et résultat
 - Aucune erreur console observée durant ces parcours.
 
 Le backend et les prompts sont inchangés ; les benchmarks d’inférence n’ont pas été relancés pour cette modification visuelle. Ces contrôles ne constituent pas une certification d’accessibilité.
+
+## Correction de la structure
+
+La première version conservait trop la disposition initiale. La marque a été déplacée dans la navigation latérale, un bandeau de contexte a été ajouté et le parcours analyste possède désormais un en-tête indigo. Sur fenêtre étroite, la navigation passe en bandeau horizontal.
