@@ -26,10 +26,10 @@
 
 ## Éléments reportés explicitement
 - [ ] PowerPoint et répétition de soutenance : reportés à la demande de l’utilisateur.
-- [ ] Import GitHub, commit réel et vérification d’accès : à faire après cette préparation.
+- [x] Import GitHub réalisé : 181 fichiers publiés sur tauzinflavio/GenAI-LLM et vérifiés par empreintes ; voir docs/27_publication_github.md.
 
 ## Portée des résultats
 Les contrats automatiques ne constituent pas une validation bancaire. Le coût complet et l’énergie réels sont ND ; les scénarios pédagogiques ne sont pas des mesures. Pas de supériorité démontrée de la diffusion ni d’autorisation de production. La disponibilité d’un fichier ne signifie pas qu’une validation humaine ou une certification a été effectuée.
 
 
-Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la vérification de publication est consignée dans docs/27_publication_github.md.
+Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la publication est terminée et sa vérification consignée dans docs/27_publication_github.md.

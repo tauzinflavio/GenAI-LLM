@@ -13,7 +13,7 @@ La matrice complète et actuelle est dans docs/08_suivi_exigences.md. Les nouvea
 | M01 | Douze tâches 4/4/4, fiche une page | Grille sémantique humaine à compléter |
 | Diffusion lecture-code | Papier et dépôt officiel au commit étudié | Lecture, pas de reproduction officielle |
 
-Les sources initiales et les versions historiques sont conservées. Le PowerPoint et l’import GitHub restent reportés selon les instructions de l’utilisateur.
+Les sources initiales et les versions historiques sont conservées. Le PowerPoint reste reporté selon la demande de l’utilisateur. L’import GitHub est réalisé et vérifié ; voir docs/27_publication_github.md.
 
 
-Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la vérification de publication est consignée dans docs/27_publication_github.md.
+Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la publication est terminée et sa vérification consignée dans docs/27_publication_github.md.

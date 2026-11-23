@@ -20,9 +20,9 @@
 | Groupe et responsabilités | Membres confirmés ; interlocuteur et contributions réelles à renseigner |
 | Validation humaine | À effectuer par le groupe ; grilles conservées, non remplacées par le vérificateur LLM |
 | Soutenance / PowerPoint | Reporté explicitement par l’utilisateur |
-| Git commun et commit | Import ultérieur demandé ; aucun hash Git inventé |
+| Git commun et commit | Publié et vérifié sur tauzinflavio/GenAI-LLM ; commit et contrôle des 181 fichiers dans docs/27_publication_github.md |
 
 Les branches RAG documentaire et agent-outils sont des options du C3. Notre périmètre retient diffusion et rapports LLM factuels ; aucun index RAG ou agent agissant sur des comptes n’est annoncé. Les dates de séance ne valent pas dates de remise. La grille individuelle des cours reste distincte du travail collectif fourni.
 
 
-Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la vérification de publication est consignée dans docs/27_publication_github.md.
+Mise à jour GitHub : import autorisé le 23 novembre 2026 dans https://github.com/tauzinflavio/GenAI-LLM ; la publication est terminée et sa vérification consignée dans docs/27_publication_github.md.
