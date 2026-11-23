@@ -1,0 +1,23 @@
+{
+  "frozen_at_utc": "2026-11-23T10:16:13.054060+00:00",
+  "workload_sha256": "9a94400057083193db9ba47480685a323d0fe87a7a14f0d43cdf5246adb69025",
+  "cases": 10,
+  "policy": {
+    "max_calls": 2,
+    "max_tokens_total": 4600,
+    "call_timeout_s": 20,
+    "request_timeout_s": 45,
+    "max_input_tokens": 2048,
+    "retries": 0
+  },
+  "hypothesis": "La cascade augmente la conformité par rapport à A seul sans dépasser deux appels ; le routing utilise moins d’appels que la cascade.",
+  "selection": "max conformité ; puis moins d’appels ; puis p95 ; aucun déploiement bancaire autonome",
+  "workload_design": "construit après les expériences V1/V2 ; exploratoire ; aucune généralisation statistique",
+  "hardware": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "seed": 42,
+  "load_and_warmup_excluded": true,
+  "quality": "contrat factuel automatique ; qualité métier et jugement humain non mesurés",
+  "energy": "ND",
+  "ttft": "ND, sortie non streamée"
+}
