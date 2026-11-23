@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-23T10:20:54.338854+00:00",
+  "hypothesis": "\u00c0 requ\u00eates identiques, concurrence 3 am\u00e9liore le d\u00e9bit des contrats r\u00e9ussis sans doubler le p95 ni augmenter les erreurs par rapport \u00e0 concurrence 1.",
+  "concurrency": 3,
+  "requests": 18,
+  "request_sha256": "a2a50ebc3e5ab60ad1686b91dc0ee807ecd9d58d1689a086891dee4dc5ee94c4",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "cpu_count": 8,
+  "memory_total_bytes": 8589934592,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "max_new_tokens": 100,
+  "retries": 0,
+  "load_warmup_excluded": true,
+  "energy": "ND",
+  "note": "petit N, p95 descriptif ; admission limit\u00e9e \u00e0 une inf\u00e9rence, 429 attendu sous contention"
+}
