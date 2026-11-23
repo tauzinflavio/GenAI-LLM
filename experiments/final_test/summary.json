@@ -1,0 +1,12 @@
+{
+  "rows": 56746,
+  "frauds": 74,
+  "delta_ap_ddpm_minus_weighted": 0.010950528091395517,
+  "bootstrap_95_percentile": [
+    -0.060069209931955386,
+    0.08430553029259491
+  ],
+  "bootstrap_replicates": 300,
+  "bootstrap_seed": 20261116,
+  "limitations": "bootstrap par lignes stratifi\u00e9 ; d\u00e9pendances clients inconnues ; fen\u00eatre temporelle courte"
+}

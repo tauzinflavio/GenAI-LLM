@@ -1,0 +1,9 @@
+{
+  "selected_configuration": "B1_class_weight",
+  "selected_seed": 42,
+  "basis": "meilleure AP moyenne de validation ; seuil F1 de validation conserv\u00e9",
+  "no_retraining": true,
+  "no_new_hyperparameters": true,
+  "comparator": "G1_ddpm_x4",
+  "comparison_seed": 42
+}
