@@ -22,3 +22,6 @@ Commencer par README.md, docs/08_suivi_exigences.md, docs/17_checklist_remise.md
 
 ## Pour exécuter
 Le dépôt ne contient ni données brutes, poids, base SQLite, sauvegardes ou secrets. Suivre README.md pour télécharger les entrées et reconstruire les artefacts. Le lien 127.0.0.1 est local à chaque ordinateur ; GitHub n’héberge pas l’application en fonctionnement.
+
+## Publication terminée
+Les 181 fichiers ont été publiés et vérifiés le 23 novembre 2026 sur https://github.com/tauzinflavio/GenAI-LLM. Détail et commit dans docs/27_publication_github.md.

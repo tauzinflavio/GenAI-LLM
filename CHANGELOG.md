@@ -7,3 +7,5 @@
 - Analyse descriptive de fidélité/diversité sans réentraînement ni accès au test final.
 - PDF C2/C3, rapport consolidé et fiche M01 mis en page. PowerPoint reporté à la demande de l’utilisateur.
 - Aucune publication GitHub ni attribution fictive de contributions.
+
+- Publication GitHub réalisée et contenu intégral vérifié : tauzinflavio/GenAI-LLM.
