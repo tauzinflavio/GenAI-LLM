@@ -1,0 +1,2 @@
+# Génération des rapports
+Installer les dépendances principales puis requirements-reports.txt. Depuis la racine : python tools/build_final_pdf.py. Le script reconstruit C2/C3, le rapport et la fiche M01 dans deliverables/. Une police Arial ou DejaVu Sans est nécessaire. Les PDF fournis ont été rendus et relus sur Mac ; une autre police peut modifier la pagination et requiert un nouveau contrôle visuel.
