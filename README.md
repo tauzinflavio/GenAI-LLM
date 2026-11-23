@@ -3,6 +3,19 @@ Ahmed · Meriem · Flavio — ECE MSc2 IA — préparation de remise du 23 novem
 
 Un seul projet relie le jalon GenAI/Diffusion et le jalon Multi-LLM/Green AI. Scénario métier hypothétique autorisé. Démonstration locale surveillée ; aucune action bancaire. Interlocuteur principal, contributions réelles et échéances de remise à confirmer. Le PowerPoint est reporté à la demande du groupe. Dépôt commun : https://github.com/tauzinflavio/GenAI-LLM. Les étapes à valider par le groupe figurent dans la checklist.
 
+## TP et remise — version finalisée
+- [Tableau des TP et livrables](docs/30_matrice_TP_projet_final.md) : périmètre confirmé, sans exercices de révision ajoutés.
+- [TP01 exécuté](notebooks/TP01_FraudLab.ipynb) et [TP02 exécuté](notebooks/TP02_FraudLab.ipynb), avec figures et sorties.
+- [Synthèse des deux TP](deliverables/TP01_TP02_Synthese_FraudLab.pdf).
+- [Architecture et ADR une page](deliverables/Architecture_ADR_FraudLab.pdf) ; [fiche modèle](docs/MODEL_CARD.md).
+- [Coûts et processus détaillés](docs/29_couts_et_processus_detail.md), tous explicitement hypothétiques.
+- [Atelier de relecture](deliverables/Relecture_LLM.html) : dans l’application, ouvrir « TP & livrables » puis la relecture. Les 158 sorties sont préparées, mais aucun jugement humain n’est généré.
+- [Actions restant au groupe](docs/31_taches_groupe.md) : annotations, interlocuteur/contributions/opérateur à décider, modalités de remise à confirmer. Soutenance et PowerPoint exclus.
+
+Relancer les TP avec `python scripts/execute_course_notebooks.py`. Ce lanceur exécute vraiment les cellules Python, intègre stdout/figures au format notebook et échoue si une assertion échoue ; il ne dépend pas de Jupyter. Pour les ouvrir dans Jupyter, utiliser un environnement Jupyter séparé si nécessaire.
+Recalculer la ventilation avec `python src/complete_financial_scenario.py`. L’allocation hypothétique ne remplace pas les coûts réels ND.
+Exporter les notes humaines puis `python scripts/import_human_reviews.py export.csv --dry-run` pour vérifier, puis sans `--dry-run` pour conserver une campagne séparée. Ne jamais présenter des notes automatiques comme humaines.
+
 ## Commencer ici
 - [Rapport consolidé](docs/16_rapport_consolide.md)
 - [Suivi des exigences et preuves](docs/08_suivi_exigences.md)
@@ -31,6 +44,7 @@ Le script prepare_demo télécharge les entrées manquantes, audite les données
 4. Évaluation : comparer validation, test final figé, prompts et TP04, sans mélanger leurs workloads.
 5. Impact & ROI : lire appels/tokens, charge et coûts ND ; charger les trois scénarios ROI ou saisir des hypothèses énergie explicites.
 6. Journal : retrouver l’avis et les événements locaux.
+7. TP & livrables : télécharger notebooks/rapports et préparer la relecture humaine en aveugle.
 
 Après une indisponibilité, le bouton « Réactiver l’analyse locale » recharge les processus manquants sans rejouer la demande précédente. Le rapport déterministe reste disponible. Le protocole conserve les échecs LLM et les marque comme tels.
 
