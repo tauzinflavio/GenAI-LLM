@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-11-23T10:24:06.664432+00:00",
+  "health_http": 200,
+  "ready_http": 200,
+  "inference_http": 200,
+  "trace_id": "ad3bc71a-271a-47ac-b3f7-1662caf7203d",
+  "status": "accepted",
+  "contract_pass": true,
+  "seconds": 1.9116805000012391,
+  "models": [
+    {
+      "role": "writer",
+      "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+      "alive": true
+    },
+    {
+      "role": "verifier",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "alive": true
+    }
+  ],
+  "real_inference": true,
+  "prompt_recorded": false,
+  "output_recorded": false,
+  "calls": 1,
+  "scope": "local CPU, fixed fictional request; HTTP success distinct from contract quality"
+}

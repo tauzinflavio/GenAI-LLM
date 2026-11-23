@@ -1,0 +1,8 @@
+{
+  "source_rows": 42,
+  "backup_rows": 42,
+  "restored_rows": 42,
+  "integrity": "ok",
+  "passed": true,
+  "scope": "restauration vers un fichier neuf ; aucune donn\u00e9e existante \u00e9cras\u00e9e"
+}

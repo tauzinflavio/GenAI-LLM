@@ -1,0 +1,11 @@
+{
+  "controlled_fault": "writer terminated in owned disposable instance",
+  "ready_during_http": 503,
+  "recover_http": 202,
+  "recovery_and_real_inference_seconds": 0.02519262499845354,
+  "after_http": 429,
+  "after_contract_pass": false,
+  "trace_id": null,
+  "passed": false,
+  "automatic_original_request_retry": false
+}
