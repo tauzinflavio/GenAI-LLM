@@ -3,6 +3,7 @@ import ast,csv,hashlib,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 required=['README.md','requirements.txt','src/orchestrator.py','src/app.py','docs/04_poc_v1_plan_v2.md','docs/05_tp04_architecture_v2.md','docs/05_tp04_benchmark.md','docs/06_tp05_finops_green_ethique.md','docs/deployment_decision.md','docs/incident_runbook.md','evidence/smoke.json','evidence/incident.json','evidence/recovery_endpoint.json','outputs/load_c1.csv','outputs/load_c3.csv','deliverables/C2_Cadrage_FraudLab.pdf','deliverables/C3_Preuve_technique_FraudLab.pdf','deliverables/Rapport_consolide_FraudLab.pdf','deliverables/TPM01_Comparaison_FraudLab.pdf']
+required += ['notebooks/TP01_FraudLab.ipynb','notebooks/TP02_FraudLab.ipynb','docs/MODEL_CARD.md','docs/30_matrice_TP_projet_final.md','deliverables/Architecture_ADR_FraudLab.pdf','deliverables/TP01_TP02_Synthese_FraudLab.pdf','deliverables/Relecture_LLM.html','experiments/results/submission_checks.json']
 for path in required:assert (ROOT/path).is_file(),path
 for directory in ['src','scripts','tests']:
  for path in (ROOT/directory).glob('*.py'):ast.parse(path.read_text())
