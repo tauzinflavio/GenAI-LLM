@@ -1,0 +1,11 @@
+{
+  "stage": "validation_only",
+  "seeds": [17, 42, 73],
+  "features": "V1_to_V28_and_log1p_Amount",
+  "excluded_features": ["Time", "Class"],
+  "detector": "LogisticRegression_C1_max_iter2000",
+  "augmentation_multipliers": [1, 4],
+  "ddpm": {"timesteps": 100, "beta_start": 0.0001, "beta_end": 0.15, "updates": 2000, "batch_size": 256, "hidden_size": 128, "learning_rate": 0.001, "internal_holdout_fraction": 0.2},
+  "threshold_policy": "validation_F1_exploratory",
+  "test_policy": "not_loaded_by_experiment"
+}

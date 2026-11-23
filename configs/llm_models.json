@@ -1,0 +1,16 @@
+{
+  "writer": {
+    "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+    "local_path": "models/writer",
+    "declared_license": "apache-2.0",
+    "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+  },
+  "verifier": {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "local_path": "models/verifier",
+    "declared_license": "apache-2.0",
+    "source": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct"
+  }
+}
