@@ -1,0 +1,9 @@
+variable,unite,pessimiste,central,optimiste,source_ou_methode,statut
+volume_alertes,alertes/an,24000,24000,24000,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+minutes_gagnees,min/alerte,0.5,2,2.5,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+cout_horaire,EUR/h,45,45,45,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+revue_supplementaire,min/alerte,0.75,0.5,0.25,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+investissement_initial,EUR,15000,15000,15000,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+exploitation,EUR/an,10000,8000,7000,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+autres_gains_etayes,EUR/an,0,0,0,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
+autres_couts_metier,EUR/an,1000,1000,1000,"Hypothèse pédagogique choisie pour sensibilité ; scénario fictif autorisé par le groupe, aucune observation bancaire",hypothetique
