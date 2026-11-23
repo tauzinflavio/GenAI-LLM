@@ -12,6 +12,6 @@ MD5 comparé avec succès à la référence OpenML.
 Schéma : Time, V1 à V28, Amount, Class. V1 à V28 sont des composantes PCA selon la source. Time est un temps écoulé relatif. Class vaut 1 pour fraude et 0 sinon. Montant en unité non confirmée par la fiche consultée.
 
 Effectifs, contrôles et partitions détaillés dans docs/05_audit_donnees.md et experiments/data_audit.json.
-Aucun prétraitement appris ni modèle entraîné. Seuls les indices des partitions sont produits.
+L’audit initial a précédé l’apprentissage. Depuis, les modèles ont été entraînés et évalués ; voir experiments/v1 et final_test. Les transformations sont apprises sur train.
 Les données ne permettent pas de déduire des pays, marchands, profils clients ou raisons métier spécifiques. Les synthèses LLM resteront limitées aux faits disponibles.
 Limites et décision d’accès détaillées dans docs/04_decision_donnees.md.
