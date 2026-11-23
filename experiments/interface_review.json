@@ -1,0 +1,21 @@
+{
+  "width_css_pixels": 320,
+  "screens": [
+    "overview",
+    "alerts",
+    "diffusion",
+    "evaluation",
+    "impact",
+    "history"
+  ],
+  "horizontal_document_overflow": false,
+  "screen_capture_inspected": "overview",
+  "other_screens": "navigation et largeurs DOM contrôlées",
+  "keyboard_controls": "boutons et champs natifs ; aria-current ajouté",
+  "contrast_fix": "texte de pied de page assombri, contraste calculé supérieur à 4,5:1",
+  "touch_targets": "min-height 44px pour contrôles sur pointeur grossier",
+  "limitations": [
+    "pas de validation avec lecteur d’écran",
+    "pas de test sur téléphone physique"
+  ]
+}

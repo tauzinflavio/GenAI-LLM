@@ -1,0 +1,4 @@
+scenario,statut,gain_brut_eur,cout_revue_eur,gain_net_operationnel_eur,cout_total_annee1_eur,roi_annee1_pct,retour_simple_mois
+pessimiste,calcule_depuis_hypotheses,9000.000000,13500.000000,-5500.000000,25000.000000,-122.000000,non_defini
+central,calcule_depuis_hypotheses,36000.000000,9000.000000,26000.000000,23000.000000,13.043478,10.000000
+optimiste,calcule_depuis_hypotheses,45000.000000,4500.000000,39500.000000,22000.000000,79.545455,5.538462

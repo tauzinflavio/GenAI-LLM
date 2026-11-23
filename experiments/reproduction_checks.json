@@ -1,0 +1,30 @@
+{
+  "environment": "nouveau venv Python 3.14 sur le même Mac",
+  "installation": "requirements.txt complet installé",
+  "input_policy": "même fichier ARFF et mêmes poids LLM réutilisés localement ; données revérifiées par MD5",
+  "detector_models_retrained": true,
+  "diffusion_models_retrained": true,
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "metrics_compared": [
+    "average_precision",
+    "threshold",
+    "precision",
+    "recall",
+    "alerts",
+    "train_rows"
+  ],
+  "configurations": 18,
+  "partitions_identical": true,
+  "max_validation_score_difference": 0.0,
+  "final_test_reevaluated": false,
+  "llm_benchmark_repeated": false,
+  "limitations": [
+    "même matériel et système",
+    "entrées publiques réutilisées, téléchargement non répété",
+    "pas de confirmation interplateforme"
+  ]
+}

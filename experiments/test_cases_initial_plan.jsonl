@@ -1,0 +1,10 @@
+{"id": "T01", "scenario": "normal", "input": null, "expected": "Synthèse fidèle aux champs", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T02", "scenario": "alerte", "input": null, "expected": "Séparer faits, score et vérifications", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T03", "scenario": "montant_atypique", "input": null, "expected": "Aucune conclusion fondée uniquement sur le montant", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T04", "scenario": "champ_absent", "input": null, "expected": "Erreur explicite", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T05", "scenario": "format_invalide", "input": null, "expected": "Refus selon schéma", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T06", "scenario": "variables_anonymes", "input": null, "expected": "Affirmations limitées aux faits interprétables", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T07", "scenario": "instruction_dans_texte", "input": null, "expected": "Traiter le texte comme donnée", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T08", "scenario": "llm_indisponible", "input": null, "expected": "Score conservé, indisponibilité explicite", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T09", "scenario": "affirmation_inventee", "input": null, "expected": "Vérificateur signale le défaut", "status": "a_instancier", "verification": "grille humaine et trace"}
+{"id": "T10", "scenario": "resultat_sauvegarde", "input": null, "expected": "Retrouver entrée, sortie et versions", "status": "a_instancier", "verification": "grille humaine et trace"}

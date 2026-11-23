@@ -1,0 +1,69 @@
+{
+  "origin": "verification automatique locale avec donnees validation",
+  "checks": [
+    {
+      "test": "statut et test final",
+      "passed": true
+    },
+    {
+      "test": "dossiers sans label cible",
+      "passed": true
+    },
+    {
+      "test": "score et persistance",
+      "passed": true
+    },
+    {
+      "test": "rapport template",
+      "passed": true
+    },
+    {
+      "test": "rapport mono_a",
+      "passed": true
+    },
+    {
+      "test": "rapport mono_b",
+      "passed": true
+    },
+    {
+      "test": "rapport routing",
+      "passed": true
+    },
+    {
+      "test": "rapport cascade",
+      "passed": true
+    },
+    {
+      "test": "avis humain",
+      "passed": true
+    },
+    {
+      "test": "generation reelle",
+      "passed": true
+    },
+    {
+      "test": "journal SQLite",
+      "passed": true
+    },
+    {
+      "test": "refus mauvais schema",
+      "passed": true
+    },
+    {
+      "test": "refus montant negatif",
+      "passed": true
+    },
+    {
+      "test": "refus dossier absent",
+      "passed": true
+    },
+    {
+      "test": "refus action non permise",
+      "passed": true
+    },
+    {
+      "test": "limite generation",
+      "passed": true
+    }
+  ]
+}

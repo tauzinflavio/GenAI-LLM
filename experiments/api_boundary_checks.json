@@ -1,0 +1,38 @@
+[
+  {
+    "test": "NaN",
+    "expected": 400,
+    "observed": 400,
+    "passed": true
+  },
+  {
+    "test": "Infinity",
+    "expected": 400,
+    "observed": 400,
+    "passed": true
+  },
+  {
+    "test": "JSON tronqué",
+    "expected": 400,
+    "observed": 400,
+    "passed": true
+  },
+  {
+    "test": "corps volumineux",
+    "expected": 413,
+    "observed": 413,
+    "passed": true
+  },
+  {
+    "test": "origine différente",
+    "expected": 403,
+    "observed": 403,
+    "passed": true
+  },
+  {
+    "test": "hôte différent",
+    "expected": 403,
+    "observed": 403,
+    "passed": true
+  }
+]
