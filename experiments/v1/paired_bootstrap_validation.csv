@@ -1,0 +1,4 @@
+candidate,reference,seed,delta_ap,ci_low,ci_high,method
+G1_ddpm_x4,B0_original,42,0.06593255840826939,0.014295152091871738,0.12135547409840082,paired_stratified_row_bootstrap_300_validation_exploratory
+G1_ddpm_x4,B1_class_weight,42,-0.06371536043940806,-0.11704871445741007,-0.020279162718171227,paired_stratified_row_bootstrap_300_validation_exploratory
+G1_ddpm_x4,B2_random_over_x4,42,-0.019580031713076096,-0.052192090726095736,0.005158184109816128,paired_stratified_row_bootstrap_300_validation_exploratory
